@@ -1,6 +1,6 @@
-defmodule Aoc do
+defmodule Day1 do
 
-  def day1(input) do
+  def go(input) do
     vals = String.graphemes(input)
     acc = day1_acc(vals, 0)
     day1_acc([List.first(vals), List.last(vals)], acc)
