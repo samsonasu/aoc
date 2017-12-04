@@ -13,4 +13,12 @@ defmodule Day1Test do
   test "day1 ex4" do
     assert Day1.go("91212129") == 9
   end
+
+  test "part2" do
+    assert Day1.part2("1212") == 6
+    assert Day1.part2("1221") == 0
+    assert Day1.part2("123425") == 4
+    assert Day1.part2("123123") == 12
+    assert Day1.part2("12131415") == 4
+  end
 end

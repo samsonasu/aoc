@@ -60,5 +60,7 @@ defmodule Day3Test do
     assert Day3.nearest_corner(26) == 49
     assert Day3.nearest_corner(32) == 49
   end
+
+
 end
 
